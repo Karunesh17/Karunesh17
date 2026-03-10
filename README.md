@@ -1,6 +1,8 @@
 ## Hi there 👋I'm KARUNESH SHARMA
 # 💫 About Me:
-I'm an aspiring Data Analyst and Data Scientist specializing in Python, NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn. Currently pursuing my Bachelor of Technology in Computer Science and Engineering at Poornima University, Jaipur.<br>🔭 I'm currently working on exploratory data analysis projects and building LLM-powered applications like ResuLLMe.<br>🌱 I'm currently learning advanced machine learning techniques with Scikit-learn and expanding my knowledge of Generative AI.<br>👯 I'm looking to collaborate on data science, machine learning, and open-source AI projects.<br>💬 Ask me about Python programming , data visualization, and extracting insights from complex datasets.
+I'm an aspiring Data Analyst and Data Scientist specializing in Python, NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn. 
+Currently pursuing my Bachelor of Technology in Computer Science and Engineering at Poornima University, Jaipur.
+<br>🔭 I'm currently working on exploratory data analysis projects and building LLM-powered applications like ResuLLMe.<br>🌱 I'm currently learning advanced machine learning techniques with Scikit-learn and expanding my knowledge of Generative AI.<br>👯 I'm looking to collaborate on data science, machine learning, and open-source AI projects.<br>💬 Ask me about Python programming , data visualization, and extracting insights from complex datasets.
 
 
 ## 🌐 Socials:
