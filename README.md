@@ -11,7 +11,7 @@ I'm an aspiring Data Analyst and Data Scientist specializing in Python, NumPy, P
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Karunesh17&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Karunesh17&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Karunesh17&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Karunesh1&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Karunesh17&icon=0&color=1)](https://visitcount.itsvg.in)
