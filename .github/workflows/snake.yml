@@ -1,14 +1,41 @@
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Karunesh17/Karunesh17/output/snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Karunesh17/Karunesh17/output/snake-light.svg"
-  />
-  <img
-    alt="contribution snake"
-    src="https://raw.githubusercontent.com/Karunesh17/Karunesh17/output/snake-light.svg"
-  />
-</picture>
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:           # manual trigger from Actions tab
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Dark snake — empty cell is visible slate, not near-black
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Karunesh17
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_dots=#2d3343,#4C1D95,#7C3AED,#A78BFA,#22D3EE
+
+      # Light snake — empty cell is light grey
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Karunesh17
+          outputs: |
+            dist/snake-light.svg?color_dots=#ebedf0,#7C3AED,#A78BFA,#C4B5FD,#22D3EE
+
+      # Push both SVGs to the output branch
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
