@@ -1,6 +1,6 @@
 # Complete README.md — Karunesh17
 
-```markdown
+
 <!-- ═══════════════════════════════════════════════════════
      BANNER  (theme-aware — upload dark.svg & light.svg
      to repo root before this renders correctly)
@@ -71,4 +71,4 @@
     width="100%"
   />
 </picture>
-```
+
