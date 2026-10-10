@@ -26,9 +26,7 @@
     <img src="https://img.shields.io/badge/Gmail-work.karunesh17-0A101F?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=0A101F&color=7C3AED" alt="Gmail"/>
   </a>&nbsp;&nbsp;
 
-  <a href="#">
-    <img src="https://img.shields.io/badge/Portfolio-Coming_Soon-0A101F?style=for-the-badge&logo=aboutdotme&logoColor=22D3EE&labelColor=0A101F&color=10B981" alt="Portfolio"/>
-  </a>
+  
 
 </p>
 
